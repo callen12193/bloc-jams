@@ -87,6 +87,7 @@ var findParentByClassName = function(element, targetClass) {
         }
         return currentParent;
     }
+ 
 };
 
 var getSongItem = function(element) {
@@ -166,7 +167,7 @@ var currentlyPlayingSong = null;
       
      }
 
-         });
+         };
       
      
      
@@ -180,4 +181,4 @@ var currentlyPlayingSong = null;
          }
          
      });
- };
+ 
