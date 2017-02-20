@@ -83,7 +83,7 @@ var findParentByClassName = function(element, targetClass) {
     if (element) {
         var currentParent = element.parentElement;
         
-         if (currentParent.containts.parentNode) {
+         if (currentParent.parentNode == null) {
         console.log("No parent found.");
     }
     
