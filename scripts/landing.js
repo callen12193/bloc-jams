@@ -16,7 +16,7 @@
 
    $(window).load(function() {
      if ($(window).height() > 950) {
-         animatePoints(pointsArray);
+         animatePoints();
      }
    
 
