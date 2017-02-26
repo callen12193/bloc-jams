@@ -59,7 +59,6 @@ html {
      cursor: pointer;
 }
 
-}
  
  .navbar .links-container {
      display: table;
@@ -85,16 +84,9 @@ html {
      text-transform: uppercase;
      text-decoration: none;
      cursor: pointer;
-     
-     
-    
  }
  
 
  .links-container .navbar-link:hover {
      color: rgb(233,50,117);
  }
-
-
-
- 
