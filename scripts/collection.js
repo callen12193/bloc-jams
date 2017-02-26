@@ -27,6 +27,6 @@ $(window).load(function() {
      for (var i = 0; i < 12; i++) {
          var $newThumbnail = buildCollectionItemTemplate();
          
-          var $newThumbnail = buildCollectionItemTemplate();
+          $collectionContainer.append($newThumbnail);
      }
  });
