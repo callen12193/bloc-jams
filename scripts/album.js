@@ -1,8 +1,30 @@
- var seek = function(time) {
+ var setCurrentTimeInPlayerBar = function(currentTime){
+    $('.current-time').text(currentTime);
+     updateSeekBarWhileSongPlays(currentTime);
+     }
+     
+ };
+ 
+ var setTotalTimeInPlayerBar = function(totalTime) {
+     $('.total-time').length(totalTime);
+     updateSeekBarWhileSongPlays(totalTime);
+ };
+
+var filterTimeCode = function(timeInSeconds) {
+    //#3 im not sure what to do//
+    
+    //#4 im not sure what to do//
+    
+    //#5 im not sure what to do//
+
+};
+
+
+var seek = function(time) {
      if (currentSoundFile) {
          currentSoundFile.setTime(time);
      }
- }
+ 
 
 var updateSeekBarWhileSongPlays = function() {
      if (currentSoundFile) {
